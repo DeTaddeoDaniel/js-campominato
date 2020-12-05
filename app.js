@@ -59,15 +59,6 @@ function game() {
     }
 }
 
-    // Dopodiché, il programma deve chiedere all'utente un numero alla volta
-
-    // il numero indicato dall'utente è una mina oppure no.
-
-    // se l'utente becca una mina, il gioco finisce, mentre
-
-    // se il numero non corrisponde ad una mina, il gioco prosegue e il
-    // programma chiede all'utente un nuovo numero.
-
 
 
 function createFiledCell(){
