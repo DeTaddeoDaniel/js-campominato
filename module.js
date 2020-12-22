@@ -211,7 +211,7 @@ function inputNumeroDifficolta(min, max){
 
     do{
 
-        livello = parseInt(prompt("Inserisci un numero tra 0 e 3 'per scegliere difficolta"));
+        livello = parseInt(prompt("Inserisci un numero tra " +min +" e " + max+" per scegliere difficolta"));
    
         if( livello == false ){
 
@@ -241,14 +241,14 @@ function inputNumeroDifficolta(min, max){
 
     } while( !checkInput)
 
-    return livello;
+    return livello - 1;
 
 }
 
 // scelta difficolta
 function sceltaDifficolta(){
 
-    var difficolta = inputNumeroDifficolta(0,3);
+    var difficolta = inputNumeroDifficolta(1,3);
     return difficolta;
     
 }
